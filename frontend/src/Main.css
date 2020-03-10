@@ -1,0 +1,82 @@
+/* @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Barlow+Semi+Condensed|News+Cycle&display=swap');
+.main {
+	background-color: white;
+	font-family: 'Barlow Semi Condensed';
+}
+
+.topbar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #e2f0ed;
+	padding: 10px;
+}
+
+.topbar > * {
+	flex-shrink: 0;
+	flex-grow: 0;
+}
+
+.topbar .left {
+	min-width: 400px;
+	margin-right: auto;
+	justify-content: flex-start;
+	align-items: center;
+}
+.topbar .right {
+	min-width: 400px;
+	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.topbar .appname {
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 45px;
+}
+
+.main h2 {
+	font-weight: bold;
+	padding: 0;
+	margin: 5px;
+	font-size: 30px;
+	line-height: 2;
+}
+
+.button {
+	background-color: #5bb899;
+	color: white;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.button-red {
+	background-color: #Eb4855;
+	color: white;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.button.whitebtn {
+	background-color: white;
+	color: #5bb899;
+}
+
+.main-contain {
+	max-width: 1000px;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+}

@@ -1,0 +1,29 @@
+.genre {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	background-position: center;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.genre .buttom {
+	padding: 14px;
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.genre .name {
+	font-size: 26px;
+	font-weight: bold;
+	margin-right: auto;
+}

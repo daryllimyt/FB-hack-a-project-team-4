@@ -1,0 +1,43 @@
+.moviepage .cover {
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.moviepage .cover .lg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 150px;
+	background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+.moviepage > .title {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-right: 10px;
+}
+.moviepage > .title > h2 {
+	margin-right: auto;
+}
+
+.moviepage .info, .moviepage > p {
+	padding: 0 10px;
+}
+
+.moviepage > p {
+	color: #666;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.moviepage .going img {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	margin: 4px 8px;
+}

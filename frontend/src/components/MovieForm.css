@@ -1,0 +1,28 @@
+input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px #5bb899;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.form-model form {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.form-model form form {
+  display: block;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.form-model form .submit-contain {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-model form .submit-contain > * {
+  margin-right: 10px;
+}
